@@ -1,7 +1,7 @@
 /* Reviews */
 
 .reviews {
-  background: url('../img/man2.png') no-repeat 75%,
+  background: url('./img/man2.png') no-repeat 75%,
       #64cbc0;
   background-size: contain;
 

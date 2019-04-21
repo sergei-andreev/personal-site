@@ -1,49 +1,62 @@
 /* Experience */
 .experience {
-  background: linear-gradient(60deg, rgba(255, 43, 74, 0.5) 0%, rgba(7, 27, 53, 0.9) 25%, rgba(7, 27, 53, 0.9) 75%, rgba(163, 38, 57, 0.5) 100%),
-      url('../img/city.jpg') no-repeat;
-  background-size: cover;
+    background:
+        linear-gradient(
+            60deg, 
+            rgba(255, 43, 74, 0.5) 0%, 
+            rgba(7, 27, 53, 0.9) 25%,
+            rgba(7, 27, 53, 0.9) 75%, 
+            rgba(163, 38, 57, 0.5) 100%
+        ),
+        url('./img/city.jpg') no-repeat;
+    background-size: cover;
 }
 
 .experience__category {
-  /* background: rgba(0, 0, 0, 0.5); */
-  background-image: linear-gradient(45deg, rgba(89, 63, 90, 0.3) 0%, rgba(104, 61, 124, 0.2) 50%, rgba(93, 72, 94, 0.3) 100%);
-  color: #fff;
-  padding: 50px 46px 50px 46px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-image: 
+        linear-gradient(
+            45deg, 
+            rgba(89, 63, 90, 0.3) 0%, 
+            rgba(104, 61, 124, 0.2) 50%, 
+            rgba(93, 72, 94, 0.3) 100%
+        );
+    color: #fff;
+    padding: 50px 46px 50px 46px;
 }
 
 .experience__category_work {
-  margin: 120px -10px 120px 0;
+    margin: 120px -10px 120px 0;
 }
 
 .experience__category_edu {
-  margin: 120px 0 120px -10px;
+    margin: 120px 0 120px -10px;
 }
 
 
 .experience__title {
-  font-size: 26px;
-  text-transform: uppercase;
-  padding-bottom: 35px;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding-bottom: 35px;
 }
 
 .experience__place {
-  font-size: 18px;
-  opacity: 0.9;
+    font-size: 18px;
+    opacity: 0.9;
 }
 
 .experience__date {
-  opacity: 0.8;
-  font-size: 16px;
+    opacity: 0.8;
+    font-size: 16px;
 }
 
 .experience__text {
-  opacity: 0.6;
-  font-size: 16px;
+    opacity: 0.6;
+    font-size: 16px;
 }
 
 .experience__category hr {
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 /* .Experience */

@@ -4,11 +4,15 @@
     min-width: 100%;
     min-height: 800px;
     background-color: black;
-    background: linear-gradient(60deg, rgba(255, 43, 74, 0.5) 0%, 
-        rgba(17, 57, 109, 0.5) 20%, 
-                                    rgba(53, 139, 196, 0.5) 80%, 
-    rgba(163, 38, 57, 0.5) 100%),
-        url('../img/header-bg.jpg') no-repeat;
+    background: 
+        linear-gradient(
+            60deg, 
+            rgba(255, 43, 74, 0.5) 0%,
+            rgba(17, 57, 109, 0.5) 20%, 
+            rgba(53, 139, 196, 0.5) 80%, 
+            rgba(163, 38, 57, 0.5) 100%
+            ),
+        url('./img/header-bg.jpg') no-repeat;
     background-size: cover;
     padding-top: 70px;
 }
