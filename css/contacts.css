@@ -9,7 +9,7 @@
             rgba(7, 27, 53, 0.9) 75%, 
             rgba(163, 38, 57, 0.5) 100%
         ),
-        url('./img/contact.jpg') no-repeat;
+        url('/img/contact.jpg') no-repeat;
     background-size: cover;
 }
 
