@@ -6,12 +6,11 @@
 
 .footer__data {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer__socials a {
-
     border-right: 1px solid #aaa;
     margin-right: 10px;
     padding-right: 15px;
@@ -30,7 +29,7 @@
 .footer__text {
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 /* .Footer */

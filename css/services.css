@@ -2,18 +2,19 @@
 
 .services__items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-
+  padding: 5px;
 }
 
 .services__item {
-  height: 268px;
-  width: 276px;
+  height: 272px;
+  width: 272px;
   font-size: 16px;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  margin: 5px;
 }
 
 .services-item__img {

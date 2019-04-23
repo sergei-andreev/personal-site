@@ -2,52 +2,19 @@
 
 .works__items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-}
-
-.works__items:first-of-type {
-  margin-bottom: 10px;
+  padding: 5px;
 }
 
 .works__img {
-  /* width: 282px;
-  height: 268px;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 10px;
-  font-size: 16px;
-  color: #fff;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  overflow: hidden; */
- 
- 
-  /* height: 268px;
-  width: 276px; */
-
-  width: 276px;
-  height: 268px;
+  width: 272px;
+  height: 272px;
+  margin: 5px;
 }
-
-
-/* .works__item:last-child {
-  margin-right: 0;
-} */
 
 .works__img--wide {
-   width: 564px;
+   width: 555px;
 }
-
-/* .works__img {
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-
-} */
-
 
 /* .Works */

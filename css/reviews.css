@@ -14,13 +14,13 @@
 
 .reviews__text {
   font-size: 1.6rem;
-  width: 466px;
   opacity: 0.9;
   color: #000000;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0.16px;
   margin-bottom: 40px;
+  width: 450px;
 }
 
 .reviews__name {
