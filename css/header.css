@@ -1,9 +1,7 @@
 /* Header */
 
 .header {
-    min-width: 100%;
-    min-height: 800px;
-    background-color: black;
+    min-height: 670px;
     background: 
         linear-gradient(
             60deg, 
@@ -14,42 +12,42 @@
             ),
         url('../img/header-bg.jpg') no-repeat;
     background-size: cover;
-    padding-top: 70px;
+    
 }
 
-.header__nav {
-    text-align: right;
+.header__top {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__text {
-    margin-top: 230px;
+    margin-top: 200px;
     text-align: center;
+    color: #fff;
 }
 
-.header__text .header__title {
-    color: #ffffff;
-    font-size: 55px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 10px;
+.header__title {
+    padding: 10px 0;
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
     border-top: 3px solid rgba(255, 255, 255, 0.5);
-    padding: 10px 0;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
-.header__title_no_latter_spacing {
+.header__title--no_latter_spacing {
     letter-spacing: normal;
 }
 
-.header__descr {
-    display: block;
-    opacity: 0.7;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+.header__description {
     font-size: 20px;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
-    margin-top: 20px;
+    opacity: 0.7;
 }
 
 /* .Header */

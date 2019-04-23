@@ -7,10 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Personal Website</title>
 
-    <link   rel="stylesheet" 
-            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-            crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -20,99 +18,99 @@
     <link rel="stylesheet" href="./css/reviews.css">
     <link rel="stylesheet" href="./css/contacts.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/common.css">
 
 </head>
 
 <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-6">
-                    <img class="header__logo" src="./img/logo.png" alt="logo">
+                <div class="col-md-12 ">
+                    <div class="header__top">
+                        <img class="header__logo" src="./img/logo.png" alt="logo">
+                        <a href="#" class="header__nav">
+                            <img src="./img/header-menu.png" alt="">
+                        </a>
+                    </div> <!-- .header__top -->
+                    <div class="header__text">
+                        <span class="header__title">
+                            Paul Lapki<span class="header__title--no_latter_spacing">n</span>
+                        </span>
+                        <p class="header__description">
+                            #User Experience #Music #Creative Direction
+                        </p>
+                    </div> <!-- .header__text -->
                 </div>
-                <a href="#" class="col-md-6 col-xs-6 header__nav">
-                    <img src="./img/header-menu.png" alt="">
-                </a>
-            </div> <!-- .row -->
-            <div class="header__text">
-                <span class="header__title">
-                    Paul Lapki<span class="header__title_no_latter_spacing">n</span>
-                </span>
-                <span class="header__descr">
-                    #User Experience #Music #Creative Direction
-                </span>
             </div>
         </div>
     </header>
     <!-- .Header -->
 
     <!-- About -->
-    <section class="about">
+    <section class="about section">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="about__my-foto">
-                        <img src="./img/man.png" alt="My photo">
-                    </div>
+                    <img class="about__photo" src="./img/man.png" alt="My photo">
                 </div>
                 <div class="col-md-7">
-                    <div class="about__text">
-                        <h2 class="about__title">
+                    <div class="about__text about-text">
+                        <h2 class="about-text__title">
                             Hi, i’m Paul Lapkin, Experience Crafter from Canada.
                         </h2>
-
-                        <p class="about_descr">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
-                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat 
-                                volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                                ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
-                            </p>
-                            <p>
-                                Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse 
-                                molestie consequat, vel illum dolore eu feugiat nulla facilisis at 
-                                vero eros et accumsan et iusto odio dignissim qui blandit praesent 
-                                luptatum zzril delenit augue duis dolore.
-                            </p>
+                        <p class="about-text__descrption">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
+                        </p>
+                        <p class="about-text__descrption">
+                            Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                            vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                            luptatum zzril delenit augue duis dolore.
                         </p>
                     </div>
-                    <a href="#" class="about__btn">
+                    <a href="#" class="btn about__btn">
                         Hire Me!
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- .About --> 
+    <!-- .About -->
 
     <!-- Services  -->
-    <section class="services">
+    <section class="services section">
         <div class="container">
             <div class="row">
-                <h2 class="services__title">
-                    My Working Process
-                </h2>
-                <h3 class="services__subtitle">
-                    Hi, i’m Paul Lapkin, Experience Crafter from Canada.
-                </h3>
-                <div class="services__items">
-                    <div class="services__item services__items_l-blue col-md-3">
-                        <img src="./img/monitor.png" alt="">
-                        <p>design</p>
-                    </div>
-                    <div class="services__item services__items_purple col-md-3">
-                        <img src="./img/magic_wand.png" alt="">
-                        <p>development</p>
-                    </div>
-                    <div class="services__item services__items_d-blue col-md-3">
-                        <img src="./img/params.png" alt="">
-                        <p>testing</p>
-                    </div>
-                    <div class="services__item services__items_red col-md-3">
-                        <img src="./img/plane.png" alt="">
-                        <p>launch</p>
-                    </div>
+                <div class="col-md-12">
+                    <h2 class="services__title">
+                        My Working Process
+                    </h2>
+                    <h3 class="services__subtitle">
+                        Hi, i’m Paul Lapkin, Experience Crafter from Canada.
+                    </h3>
+                    <div class="services__items">
+                        <div class="services__item services-item services-item--cyan col-md-3">
+                            <img class="services-item__img" src="./img/monitor.png" alt="">
+                            <p class="services-item__text">design</p>
+                        </div>
+                        <div class="services__item services-item services-item--purple col-md-3">
+                            <img class="services-item__img" src="./img/magic_wand.png" alt="">
+                            <p class="services-item__text">development</p>
+                        </div>
+                        <div class="services__item services-item services-item--blue col-md-3">
+                            <img class="services-item__img" src="./img/params.png" alt="">
+                            <p class="services-item__text">testing</p>
+                        </div>
+                        <div class="services__item services-item services-item--red col-md-3">
+                            <img class="services-item__img" src="./img/plane.png" alt="">
+                            <p class="services-item__text">launch</p>
+                        </div>
+                    </div> <!-- .services__item -->
                 </div>
             </div>
         </div>
@@ -120,7 +118,7 @@
     <!-- Services  -->
 
     <!-- Experience -->
-    <section class="experience">
+    <section class="experience section">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -138,7 +136,7 @@
                         </p>
                         <p class="experience__text">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
                             erat volutpat.
                         </p>
 
@@ -151,9 +149,9 @@
                             OCT 2014 - june 2015
                         </p>
                         <p class="experience__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
-                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
-                            erat volutpat. 
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                            erat volutpat.
                         </p>
                     </div>
                 </div>
@@ -173,8 +171,8 @@
                             OCT 2013 - june 2014
                         </p>
                         <p class="experience__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
-                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
                             erat volutpat.
                         </p>
 
@@ -187,8 +185,8 @@
                             OCT 2014 - Present
                         </p>
                         <p class="experience__text">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
-                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
                             erat volutpat.
                         </p>
                     </div>
@@ -199,9 +197,9 @@
     <!-- .Experience -->
 
     <!-- Works -->
-    <section class="works">
+    <section class="works section">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-end">
                 <h2 class="works__title">
                     My Latest Works
                 </h2>
@@ -210,29 +208,27 @@
                 </h3>
 
                 <div class="works__items">
-                    <div class="works__item works__items_l-blue col-md-3">
-
+                    <div class="works__item col-md-3">
+                        <img src="./img/work-1.jpg" alt="" class="works__img">
                     </div>
-                    <div class="works__item works__items_purple col-md-3">
-
+                    <div class="works__item col-md-3">
+                        <img src="./img/work-2.jpg" alt="" class="works__img">
                     </div>
-                    <div class="works__item works__items_d-blue col-md-3">
-
+                    <div class="works__item col-md-3">
+                        <img src="./img/work-3.jpg" alt="" class="works__img">
                     </div>
-                    <div class="works__item works__items_red col-md-3">
-
+                    <div class="works__item col-md-3">
+                        <img src="./img/work-4.jpg" alt="" class="works__img">
                     </div>
-                </div>
 
-                <div class="works__items">
-                    <div class="works__item works__items_purple col-md-3">
-
+                    <div class="works__item works__item--twin col-md-3">
+                        <img src="./img/work-5.jpg" alt="" class="works__img">
                     </div>
-                    <div class="works__item works__items_d-blue col-md-3">
-
+                    <div class="works__item col-md-3">
+                        <img src="./img/work-6.jpg" alt="" class="works__img">
                     </div>
-                    <div class="works__item works__items_red col-md-3">
-
+                    <div class="works__item col-md-3">
+                        <img src="./img/work-7.jpg" alt="" class="works__img">
                     </div>
                 </div>
             </div>
@@ -246,8 +242,8 @@
             <div class="row">
                 <img src="./img/qq.png" alt="qq" class="reviews__qq">
                 <p class="reviews__text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
-                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim 
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
                     ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
                     ut aliquipex ea commodo consequat.
                 </p>
