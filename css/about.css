@@ -1,15 +1,11 @@
 /* About */
-.about__my-foto {
-  margin-top: 100px;
-  margin-bottom: 100px;         
-}
 
-.about__my-foto img {
-  width: 400px;
+.about__photo {  
+  width: 400px;       
 }
 
 .about__text {
-  margin-top: 170px;
+  margin-top: 80px;
   font-size: 16px;
   letter-spacing: 0.16px;
   line-height: 28px;
@@ -17,37 +13,13 @@
   color: #000;
 }
 
-.about__text p {
-  margin-bottom: 30px;
-}
-
-.about__title {
+.about-text__title {
   font-size: 18px;
   margin-bottom: 40px;
 }
 
-.about__btn {
-  display: inline-block;
-  width: 200px;
-  height: 46px;
-  background-color: #ff2b4a;
-  color: #fff;
-  font-size: 16px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 46px;
-}
-
-.about__btn:hover {
-  background-color: #b61f35;
-  text-decoration: none;
-  color: #fff;
-}
-
-.about__btn:active,
-.about__btn:focus {
-  text-decoration: none;
-  color: #fff;
+.about-text__descrption {
+  margin-bottom: 30px;
 }
 
 /* .About */

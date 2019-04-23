@@ -1,0 +1,144 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+@media screen and (max-width: 1199px) {
+ 
+
+  /* Services */
+  .services__item {
+    height: 220px;
+    width: 220px;
+  }
+
+  .services-item__img {
+    margin-top: 65px;
+    margin-bottom: 20px;
+  }
+
+  /* .Services */
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    margin-bottom: 70px;
+  }
+
+  .section__title {
+    margin-bottom: 10px;
+  }
+
+  .section__description {
+    margin-bottom: 30px;
+  }
+
+  .header {
+    background-size: cover;
+    background-position: right;
+  }
+
+  .about__photo {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .about__btn {
+    width: 100%;
+  }
+
+  .services__item {
+    height: 272px;
+    width: 272px;
+  }
+
+  .services-item__img {
+    margin-top: 88px;
+    margin-bottom: 25px;
+  }
+
+  .reviews {
+    text-align: center;
+    background: #64cbc0;
+  }
+
+  .reviews__text {
+    margin: 15px auto;
+    width: auto;
+  }
+
+  .reviews__qq {
+    margin-top: 70px;
+  }
+
+  .experience__category_work {
+    margin: 60px -10px 60px 0;
+  }
+
+  .experience__category_edu {
+    margin: 60px 0 60px -10px;
+  }
+
+  .contacts__btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 603px) {
+  .services__item {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .services-item__img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .works__img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
+
+  .works__img--wide {
+    width: 410px;
+  }
+}
+
+/* 497 */
+
+@media screen and (max-width: 497px) {
+  .reviews__text {
+    font-size: 1.4rem;
+    line-height: 24px;
+    letter-spacing: 0.10px;
+  }
+
+  .header__text {
+    margin-top: 100px;
+
+}
+
+  .header__hash {
+    display: block;
+  }
+
+  .header__title {
+    border: none;
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .works__img {
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+  }
+
+  .works__img--wide {
+    /* width: auto; */
+  }
+}
