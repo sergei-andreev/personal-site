@@ -1,0 +1,51 @@
+/* *:hover {
+  transition: all 0.3s ease;
+} */
+
+.btn:hover,
+.btn:not(:hover),
+.footer__social:hover,
+.footer__social:not(:hover) {
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  transform: scale(1.09) rotateZ(2deg);
+}
+
+.footer__social:hover {
+  transform: scale(1.7);
+}
+
+
+@keyframes swing {
+  25% {
+    transform: translateX(3px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.services-item:hover {
+  animation: swing 0.5s linear;
+  animation-iteration-count: infinite;
+}
+
+.works__img:hover {
+  transform: scale(1.3);
+  border-radius: 2%;
+  transition: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.works__img:not(:hover) {
+  transition: 0.5s;
+}
