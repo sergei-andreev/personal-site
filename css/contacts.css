@@ -51,8 +51,8 @@
     margin-bottom: 0;
 }
 
-.contacts__form input,
-.contacts__form textarea {
+.contacts__input,
+.contacts__textarea {
     width: 100%;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.6);
@@ -61,7 +61,7 @@
     background: none;
 }
 
-.contacts__form textarea {
+.contacts__textarea {
     height: 200px;
     margin-bottom: 40px;
 }
@@ -76,8 +76,23 @@
     padding-bottom: 30px;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 .contacts__btn {
     float: right;
 }
+
+.contacts__link,
+.contacts__link:hover,
+.contacts__link:visited {
+    color: white;
+
+}
+
+
+
 
 /* .Contacts */
