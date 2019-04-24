@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 1199px) {
  
-
   /* Services */
   .services__item {
     height: 220px;
@@ -71,16 +70,11 @@
     margin-top: 70px;
   }
 
-  .experience__category_work {
-    margin: 60px -10px 60px 0;
-  }
-
-  .experience__category_edu {
-    margin: 60px 0 60px -10px;
-  }
-
   .contacts__btn {
     width: 100%;
+  }
+  .experience__category {
+    margin: 50px 0 50px 0;
   }
 }
 

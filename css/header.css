@@ -38,7 +38,7 @@
     text-transform: uppercase;
 }
 
-.header__title--no_latter_spacing {
+.header__title--no-latter-spacing {
     letter-spacing: normal;
 }
 
