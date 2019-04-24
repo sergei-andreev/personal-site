@@ -39,7 +39,7 @@
 
   .about__photo {
     display: flex;
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
   }
 
@@ -118,7 +118,6 @@
 
   .header__text {
     margin-top: 100px;
-
 }
 
   .header__hash {
@@ -127,18 +126,21 @@
 
   .header__title {
     border: none;
-    font-size: 7rem;
+    font-size: 60px;
+  }
+
+  .header__top {
+    margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 459px) {
   .works__img {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     margin: 3px;
   }
-
-  .works__img--wide {
-    /* width: auto; */
+  .about__photo {
+    max-width: 280px;
   }
 }
