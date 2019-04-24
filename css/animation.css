@@ -1,7 +1,3 @@
-/* *:hover {
-  transition: all 0.3s ease;
-} */
-
 .btn:hover,
 .btn:not(:hover),
 .footer__social:hover,
@@ -49,3 +45,4 @@
 .works__img:not(:hover) {
   transition: 0.5s;
 }
+
