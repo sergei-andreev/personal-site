@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-12 ">
                     <div class="header__top">
-                        <img class="header__logo" src="./img/logo.png" alt="logo">
+                        <a href="#"><img class="header__logo" src="./img/logo.png" alt="logo"></a>
                         <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" id="navToggle"
                             onclick="this.classList.toggle('active')">
                             <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,
@@ -49,7 +49,7 @@
 
                     <div class="header__text">
                         <span class="header__title">
-                            Paul Lapki<span class="header__title--no_latter_spacing">n</span>
+                            Paul Lapki<span class="header__title--no-latter-spacing">n</span>
                         </span>
                         <p class="header__description">
                             <span class="header__hash">#Creative Direction</span>
@@ -224,14 +224,13 @@
                     </p>
 
                     <div class="works__items">
-                        <img src="./img/work-1.jpg" alt="" class="works__img">
-                        <img src="./img/work-2.jpg" alt="" class="works__img">
-                        <img src="./img/work-3.jpg" alt="" class="works__img">
-                        <img src="./img/work-4.jpg" alt="" class="works__img">
-
-                        <img src="./img/work-5.jpg" alt="" class="works__img works__img--wide">
-                        <img src="./img/work-6.jpg" alt="" class="works__img">
-                        <img src="./img/work-7.jpg" alt="" class="works__img">
+                        <img class="works__img" src="./img/work-1.jpg" alt="Build">
+                        <img class="works__img" src="./img/work-2.jpg" alt="Player">
+                        <img class="works__img" src="./img/work-3.jpg" alt="Brend">
+                        <img class="works__img" src="./img/work-4.jpg" alt="Cup">
+                        <img class="works__img works__img--wide" src="./img/work-5.jpg" alt="Box">
+                        <img class="works__img" src="./img/work-6.jpg" alt="Tatoo">
+                        <img class="works__img" src="./img/work-7.jpg" alt="Coffee">
                     </div>
                 </div>
             </div>
@@ -270,46 +269,49 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="contacts__form contacts__left">
-                        <h2 class="contacts__title">
-                            Leave a message
-                        </h2>
-                        <input class="contacts__input" type="text" placeholder="Name*">
-                        <input class="contacts__input" type="text" placeholder="Email*">
-                        <input class="contacts__input" type="text" placeholder="Subject*">
-                        <textarea class="contacts__textarea" placeholder="Message*"></textarea>
-                        <a class="contacts__btn btn" href="">Hire Me!</a>
+                    <div class="contacts__form">
+                        <div class="contacts__item">
+                            <h2 class="contacts__title">
+                                Leave a message
+                            </h2>
+                            <input class="contacts__input" type="text" placeholder="Name*">
+                            <input class="contacts__input" type="text" placeholder="Email*">
+                            <input class="contacts__input" type="text" placeholder="Subject*">
+                            <textarea class="contacts__textarea" placeholder="Message*"></textarea>
+                            <a class="contacts__btn btn" href="">Hire Me!</a>
+                            <p class="clearfix"></p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="contacts__form contacts__right">
-                        <h2 class="contacts__title">
-                            Address
-                        </h2>
-                        <p class="contacts__text">
-                            Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A),
-                            Gulshan-1, Dhaka 1212.
-                        </p>
-                    </div>
-
-                    <div class="contacts__form contacts__right">
-                        <h2 class="contacts__title">
-                            Phone
-                        </h2>
-                        <p class="contacts__text">
-                            <a href="#" class="contacts__link">+880 174 037 6995</a> <br>
-                            <a href="#" class="contacts__link">+880 191 448 6969</a>
-                        </p>
-                    </div>
-
-                    <div class="contacts__form contacts__right">
-                        <h2 class="contacts__title">
-                            Web
-                        </h2>
-                        <p class="contacts__text">
-                            Mail: <a href="#" class="contacts__link">quicksayed@gmail.com</a> <br>
-                            Website: <a href="#" class="contacts__link">dribbble.com/yourwebsite</a>
-                        </p>
+                    <div class="contacts__form">
+                        <div class="contacts__item">
+                            <h2 class="contacts__title">
+                                Address
+                            </h2>
+                            <p class="contacts__text">
+                                Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A),
+                                Gulshan-1, Dhaka 1212.
+                            </p>
+                        </div>
+                        <div class="contacts__item">
+                            <h2 class="contacts__title">
+                                Phone
+                            </h2>
+                            <p class="contacts__text">
+                                <a href="#" class="contacts__link">+880 174 037 6995</a> <br>
+                                <a href="#" class="contacts__link">+880 191 448 6969</a>
+                            </p>
+                        </div>
+                        <div class="contacts__item">
+                            <h2 class="contacts__title">
+                                Web
+                            </h2>
+                            <p class="contacts__text">
+                                Mail: <a href="#" class="contacts__link">quicksayed@gmail.com</a> <br>
+                                Website: <a href="#" class="contacts__link">dribbble.com/yourwebsite</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

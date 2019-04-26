@@ -22,15 +22,9 @@
         );
     color: #fff;
     padding: 50px 46px 50px 46px;
+    margin: 100px 0 100px 0;
 }
 
-.experience__category_work {
-    margin: 120px -10px 120px 0;
-}
-
-.experience__category_edu {
-    margin: 120px 0 120px -10px;
-}
 
 .experience__title {
     margin-bottom: 35px;
